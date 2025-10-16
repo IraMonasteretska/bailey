@@ -1,0 +1,26 @@
+<svg width="137" height="164" viewBox="0 0 137 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path class="moving" d="M36.1118 -0.000854492L3.75127 30.746L50.6198 82.6945L0 130.792L29.9615 163.999L112.942 85.1565L36.1118 -0.000854492Z" fill="#0F6091"/>
+<path class="moving2" d="M137.001 90.5748L66.7402 12.6975L40.0435 38.0634L85.5909 88.544L36.3984 135.286L61.1163 162.676L137.001 90.5748ZM89.6297 88.7029L44.0838 38.2193L66.584 16.8422L67.1 17.4172L132.962 90.4189L61.2682 158.537L40.4373 135.443L89.6297 88.7029Z" fill="#333333"/>
+
+<style>
+    <!-- @keyframes moveLeftRight {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(5px); }
+        100% { transform: translateX(0); }
+    }
+
+    .moving {
+        animation: moveLeftRight 2s infinite;
+    }
+
+    @keyframes moveLeftLeft {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(-2px); }
+        100% { transform: translateX(0); }
+    }
+
+    .moving2 {
+        animation: moveLeftLeft 2s infinite;
+    } -->
+</style>
+</svg>

@@ -1,0 +1,45 @@
+.header {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    z-index: 9;
+}
+
+.header-content {
+    background: #fff;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+
+.header__logo {
+    img {
+        max-width: 190px;
+        vertical-align: top;
+    }
+}
+
+.header__nav {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        li {
+            margin-right: 76px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            a {
+                font-size: 20px;
+                font-weight: 600;
+                color: $dark-gray;
+            }
+        }
+    }
+}

@@ -1,0 +1,114 @@
+$dark-gray: #333333;
+$blue: #0F6091;
+$light-blue: #E5F0FF;
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.pagewrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    color: $dark-gray;
+
+    &.hidden {
+        overflow: hidden;
+    }
+}
+
+@media(min-width:1500px) {
+    .container {
+        max-width: 1424px;
+    }
+}
+
+input {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Playfair", serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: $blue;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: "Playfair", serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    color: $blue;
+    margin-top: 0;
+}
+
+h3 {
+    font-family: "Playfair", serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: right;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+}
+
+.borderbtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid $blue;
+    color: $blue;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Source Sans Pro";
+    min-height: 58px;
+    width: 100%;
+    background: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+        color: #fff;
+        background: $blue;
+    }
+}
