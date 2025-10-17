@@ -87,7 +87,13 @@ h3 {
     text-align: right;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin-top: 0;
 }
 
@@ -110,5 +116,41 @@ h1, h2, h3, h4, h5, h6, p {
     &:hover {
         color: #fff;
         background: $blue;
+    }
+}
+
+@media(max-width:1399.8px) {
+    h1 {
+        font-size: 58px;
+    }
+}
+
+@media(max-width:1199.8px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+}
+
+@media(max-width:991.8px) {
+    h1 {
+        font-size: 54px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+}
+
+@media(max-width:575.8px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 36px;
     }
 }

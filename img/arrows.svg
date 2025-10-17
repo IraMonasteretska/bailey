@@ -3,7 +3,7 @@
 <path class="moving2" d="M137.001 90.5748L66.7402 12.6975L40.0435 38.0634L85.5909 88.544L36.3984 135.286L61.1163 162.676L137.001 90.5748ZM89.6297 88.7029L44.0838 38.2193L66.584 16.8422L67.1 17.4172L132.962 90.4189L61.2682 158.537L40.4373 135.443L89.6297 88.7029Z" fill="#333333"/>
 
 <style>
-    <!-- @keyframes moveLeftRight {
+    @keyframes moveLeftRight {
         0% { transform: translateX(0); }
         50% { transform: translateX(5px); }
         100% { transform: translateX(0); }
@@ -21,6 +21,6 @@
 
     .moving2 {
         animation: moveLeftLeft 2s infinite;
-    } -->
+    }
 </style>
 </svg>
