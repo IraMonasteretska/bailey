@@ -45,7 +45,6 @@
                 </div>
             </div>
         </header>
-
         <main class="main">
             <section class="herosection">
                 <div class="container">
@@ -234,28 +233,39 @@
                         <div class="col-lg-6 order-2 order-lg-1">
                             <div class="contactus__form">
                                 <form action="#">
-                                    <div class="inputfield">
+                                    <div class="inputfield error">
                                         <label for="fname">First name <span>*</span></label>
                                         <input id="fname" type="text" required>
+                                        <p class="error-text">The field is required.</p>
                                     </div>
-                                    <div class="inputfield">
+                                    <div class="inputfield error">
                                         <label for="lname">Last Name <span>*</span></label>
                                         <input id="lname" type="text" required>
+                                        <p class="error-text">The field is required.</p>
                                     </div>
-                                    <div class="inputfield">
+                                    <div class="inputfield error">
                                         <label for="company">Company <span>*</span></label>
                                         <input id="company" type="text" required>
+                                        <p class="error-text">The field is required.</p>
                                     </div>
-                                    <div class="inputfield">
+                                    <div class="inputfield error">
                                         <label for="email">Email Address <span>*</span></label>
                                         <input id="email" type="email" required>
+                                        <p class="error-text">The field is required.</p>
                                     </div>
-                                    <div class="inputfield">
+                                    <div class="inputfield error">
                                         <label for="message">Message <span>*</span></label>
                                         <textarea required id="message"></textarea>
+                                        <p class="error-text">The field is required.</p>
                                     </div>
                                     <input type="submit" value="Send Message" class="borderbtn">
 
+                                    <p class="error-notification form-notification text-center">
+                                        One or more fields have an error. Please check and try again.
+                                    </p>
+                                    <p class="success-notification form-notification text-center">
+                                        Thank you for your message. It has been sent.
+                                    </p>
                                 </form>
                             </div>
                         </div>
