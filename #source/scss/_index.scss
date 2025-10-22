@@ -427,6 +427,11 @@
     border: 2px solid #34C759;
 }
 
+.sm-title {
+    display: none;
+}
+
+
 @media(max-width:1599.8px) {
 
     .service-item {
@@ -657,6 +662,22 @@
         margin-bottom: 40px;
     }
 
+    .sm-title {
+        display: block;
+    }
+
+    .contactus__descr {
+        margin-top: 30px;
+
+        h2 {
+            display: none;
+        }
+
+        img {
+            margin: 0 auto;
+        }
+    }
+
 }
 
 @media(max-width: 767.8px) {
@@ -664,7 +685,7 @@
         height: auto;
     }
 
-     .form-notification {
+    .form-notification {
         min-height: 50px;
         font-size: 16px;
         line-height: 110%;
